@@ -6,11 +6,11 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Streamline"/>
   <Description DefaultValue="Streamline AI provides self-help services at your specific direction. We are not a law firm or a substitute for an attorney or law firm."/>
-  <IconUrl DefaultValue="https://outlook-addin.vercel.app/assets/icon-64.png"/>
-  <HighResolutionIconUrl DefaultValue="https://outlook-addin.vercel.app/assets/icon-128.png"/>
-  <SupportUrl DefaultValue="https://outlook-addin.vercel.app/help"/>
+  <IconUrl DefaultValue="https://vishwajeet-wlc.github.io/hello/assets/icon-64.png"/>
+  <HighResolutionIconUrl DefaultValue="https://vishwajeet-wlc.github.io/hello/assets/icon-128.png"/>
+  <SupportUrl DefaultValue="https://vishwajeet-wlc.github.io/hello/help"/>
   <AppDomains>
-    <AppDomain>https://outlook-addin.vercel.app/</AppDomain>
+    <AppDomain>https://vishwajeet-wlc.github.io/hello/</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Mailbox"/>
@@ -23,7 +23,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://outlook-addin.vercel.app/taskpane.html"/>
+        <SourceLocation DefaultValue="https://vishwajeet-wlc.github.io/hello/taskpane.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -85,13 +85,13 @@
     </Hosts>
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="https://outlook-addin.vercel.app/assets/icon-16.png"/>
-        <bt:Image id="Icon.32x32" DefaultValue="https://outlook-addin.vercel.app/assets/icon-32.png"/>
-        <bt:Image id="Icon.80x80" DefaultValue="https://outlook-addin.vercel.app/assets/icon-80.png"/>
+        <bt:Image id="Icon.16x16" DefaultValue="https://vishwajeet-wlc.github.io/hello/assets/icon-16.png"/>
+        <bt:Image id="Icon.32x32" DefaultValue="https://vishwajeet-wlc.github.io/hello/assets/icon-32.png"/>
+        <bt:Image id="Icon.80x80" DefaultValue="https://vishwajeet-wlc.github.io/hello/assets/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="Commands.Url" DefaultValue="https://outlook-addin.vercel.app/commands.html"/>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://outlook-addin.vercel.app/taskpane.html"/>
+        <bt:Url id="Commands.Url" DefaultValue="https://vishwajeet-wlc.github.io/hello/commands.html"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://vishwajeet-wlc.github.io/hello/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="GroupLabel" DefaultValue="Streamline"/>
