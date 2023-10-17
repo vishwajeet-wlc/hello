@@ -103,8 +103,9 @@
         <bt:String id="ActionButton.Tooltip" DefaultValue="Perform an action when clicked."/>
       </bt:LongStrings>
     </Resources>
+    <VersionOverrides xmlns="http://schemas.microsoft.com/office/mailappversionoverrides/1.1" xsi:type="VersionOverridesV1_1">
     <WebApplicationInfo>
-      <Id>65e1ac49-448a-4835-9d29-a22097991226</Id>
+       <Id>65e1ac49-448a-4835-9d29-a22097991226</Id>
       <Resource>api://vishwajeet-wlc.github.io/hello/65e1ac49-448a-4835-9d29-a22097991226</Resource>
       <Scopes>
           <Scope>openid</Scope>
@@ -112,5 +113,6 @@
           <Scope>profile</Scope>
       </Scopes>
     </WebApplicationInfo>
+  </VersionOverrides>
   </VersionOverrides>
 </OfficeApp>
