@@ -10,7 +10,7 @@
   <HighResolutionIconUrl DefaultValue="https://vishwajeet-wlc.github.io/hello/assets/icon-128.png"/>
   <SupportUrl DefaultValue="https://vishwajeet-wlc.github.io/hello/help"/>
   <AppDomains>
-    <AppDomain>https://vishwajeet-wlc.github.io/hello/</AppDomain>
+    <AppDomain>https://vishwajeet-wlc.github.io</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Mailbox"/>
