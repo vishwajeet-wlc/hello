@@ -33,7 +33,7 @@
     <Rule xsi:type="ItemIs" ItemType="Message" FormType="Read"/>
   </Rule>
   <DisableEntityHighlighting>false</DisableEntityHighlighting>
-  <VersionOverrides xmlns="http://schemas.microsoft.com/office/mailappversionoverrides" xsi:type="VersionOverridesV1_0">
+  <VersionOverrides xmlns="http://schemas.microsoft.com/office/mailappversionoverrides" xsi:type="VersionOverridesV1_1">
     <Requirements>
       <bt:Sets DefaultMinVersion="1.3">
         <bt:Set Name="Mailbox"/>
@@ -104,8 +104,8 @@
       </bt:LongStrings>
     </Resources>
     <WebApplicationInfo>
-    <Id>5661fed9-f33d-4e95-b6cf-624a34a2f51d</Id>
-    <Resource>api://addin.contoso.com/5661fed9-f33d-4e95-b6cf-624a34a2f51d</Resource>
+    <Id>65e1ac49-448a-4835-9d29-a22097991226</Id>
+    <Resource>api://vishwajeet-wlc.github.io/hello/65e1ac49-448a-4835-9d29-a22097991226</Resource>
     <Scopes>
         <Scope>openid</Scope>
         <Scope>user.read</Scope>
