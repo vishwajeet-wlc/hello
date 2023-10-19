@@ -10,7 +10,7 @@
   <HighResolutionIconUrl DefaultValue="https://vishwajeet-wlc.github.io/hello/assets/icon-128.png"/>
   <SupportUrl DefaultValue="https://vishwajeet-wlc.github.io/hello/help"/>
   <AppDomains>
-    <AppDomain>https://vishwajeet-wlc.github.io/hello/</AppDomain>
+    <AppDomain>https://vishwajeet-wlc.github.io/</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Mailbox"/>
@@ -103,5 +103,14 @@
         <bt:String id="ActionButton.Tooltip" DefaultValue="Perform an action when clicked."/>
       </bt:LongStrings>
     </Resources>
+    <!-- <WebApplicationInfo>
+       <Id>65e1ac49-448a-4835-9d29-a22097991226</Id>
+      <Resource>api://vishwajeet-wlc.github.io/hello/65e1ac49-448a-4835-9d29-a22097991226</Resource>
+      <Scopes>
+          <Scope>openid</Scope>
+          <Scope>user.read</Scope>
+          <Scope>profile</Scope>
+      </Scopes>
+    </WebApplicationInfo> -->
   </VersionOverrides>
 </OfficeApp>
