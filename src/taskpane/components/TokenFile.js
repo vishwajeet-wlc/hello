@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import DropdownForm2 from "./DropdownForm2.js";
 import RequestStatus from "./RequestStatus.js";
+import getMicrosoftAccessToken from "./GetToken.js";
 /* global Office, alert, fetch, console */
 
 function TokenFile() {
@@ -114,6 +115,14 @@ function TokenFile() {
         console.log(result.error);
       }
     });
+  }, []);
+
+  useEffect(() => {
+    async function getTokens() {
+      const token = await getMicrosoftAccessToken();
+      console.log(token);
+    }
+    getTokens();
   }, []);
   return (
     <>
