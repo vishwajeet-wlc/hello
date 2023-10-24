@@ -144,7 +144,7 @@ function TokenFile() {
               width: "100%",
             }}
           >
-            Set up Streamline Access 0
+            Set up Streamline Access
           </p>
           <form>
             <label
